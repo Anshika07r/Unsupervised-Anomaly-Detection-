@@ -26,6 +26,11 @@ The project applies **statistical preprocessing**, **dimensionality reduction**,
 - Model comparison and overlap analysis
 - Visualization of anomalies using PCA components
 
+ Example:
+```python
+from sklearn.ensemble import IsolationForest
+model = IsolationForest(contamination=0.05)
+
 ---
 
 ## 📈 Results
@@ -61,3 +66,10 @@ The project applies **statistical preprocessing**, **dimensionality reduction**,
 
 ## 📌 Author
 **Anshika Rawat**
+MCA Student (Machine Learning & AI – upcoming specialization)  
+Aspiring Data Analyst / ML Analyst
+
+## 📌 Disclaimer
+
+This project was developed for **learning and academic purposes**.  
+It demonstrates the application of unsupervised machine learning techniques and does not represent a production-level industrial deployment.
