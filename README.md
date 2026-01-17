@@ -26,11 +26,6 @@ The project applies **statistical preprocessing**, **dimensionality reduction**,
 - Model comparison and overlap analysis
 - Visualization of anomalies using PCA components
 
- Example:
-```python
-from sklearn.ensemble import IsolationForest
-model = IsolationForest(contamination=0.05)
-
 ---
 
 ## 📈 Results
